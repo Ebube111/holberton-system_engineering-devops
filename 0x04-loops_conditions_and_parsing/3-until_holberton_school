@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# a Bash script that displays Holberton School 10 times using while
+# a Bash script that displays Holberton School 10 times using until
 i=10
 until [ $i -lt 1 ]; do
 	echo "Holberton School"
