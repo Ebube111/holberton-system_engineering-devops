@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# a Bash script that
+F=/tmp/my_process
+sudo touch $F
+while true ; do
+	sudo bash -c "echo \"I am alive!\" >> $F"
+	sleep 2
+done
