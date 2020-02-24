@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-regex = /hb[t]{0,5}n/i
+regex = /hb[^o].*/i
 arg = ARGV[0]
 arg.scan(regex) do |match|
 		puts match.to_s
