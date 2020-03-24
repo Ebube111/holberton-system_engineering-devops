@@ -1,0 +1,4 @@
+# SSH client configuration
+Host 35.231.60.179
+HostName 35.231.60.179
+IdentityFile ~/.ssh/holberton
